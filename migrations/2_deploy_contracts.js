@@ -1,8 +1,8 @@
-const BIAWhitelisted= artifacts.require("BIAWhitelisted");
+const BIAWhitelistedSale= artifacts.require("BIAWhitelistedSale");
 
 module.exports = function (deployer) {
   
-  deployer.deploy(BIAWhitelisted,'4265','0xF2Dec16aD61B58c5b914419548747c72eF451Dc5','0xbe050b2e55a4d3002d215bc90528c7711a3fd7e0','46893317702227400000000','1643673601','1651363201','1656633601','1672531201','1704067201');
+  deployer.deploy(BIAWhitelistedSale,'4265','0xF2Dec16aD61B58c5b914419548747c72eF451Dc5','0xbe050b2e55a4d3002d215bc90528c7711a3fd7e0','46893317702227400000000','1643673601','1651363201','1656633601','1672531201','1704067201');
 };
 
 /*
