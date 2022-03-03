@@ -94,7 +94,7 @@ contract BIAWhitelistedSale is TimedCrowdsale,CappedCrowdsale,WhitelistCrowdsale
     address _beneficiary,
     uint _amount
   )
-  public
+  internal
   {
     // Create new wallet.
     address wallet1 = address(new TokenTimelock(tokenAddress, _beneficiary,releaseTime1));
